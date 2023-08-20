@@ -1,4 +1,4 @@
-git clone https://github.com/hoaan1995/ZxCDDoS/
+git clone https://github.com/wolfxsec/DuckxDDOS/
 apt-get install golang -y
 apt-get install perl -y
 apt-get install python3 -y
