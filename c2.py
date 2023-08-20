@@ -739,15 +739,15 @@ def main():
 
         elif "help" in cnc:
             print(f'''
-LAYER7  ► SHOW LAYER7 METHODS
-LAYER4  ► SHOW LAYER4 METHODS
-AMP     ► SHOW AMP METHODS
-SPECIAL ► SHOW SPECIAL METHODS
-BANNERS ► SHOW BANNERS
-RULES   ► RULES PANEL
-PORTS   ► SHOW ALL PORTS
-TOOLS   ► SHOW TOOLS
-CLEAR   ► CLEAR TERMINAL
+LAYER7  ► 显示第 7 层方法
+LAYER4  ► 显示第 4 层方法
+AMP     ► 显示放大器方法
+SPECIAL ► 显示特殊方法
+BANNERS ► 显示横幅
+RULES   ► 规则面板
+PORTS   ► 显示所有端口
+TOOLS   ► 展示工具
+CLEAR   ► 透明终端
             ''')
 
         else:
